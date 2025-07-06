@@ -1,0 +1,11 @@
+.title {
+  display: flex;
+  justify-content: center; /* centra horizontalmente el contenido */
+  align-items: center;     /* centra verticalmente dentro de su contenedor */
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;          /* centra el bloque si tiene un ancho fijo */
+  padding: 20px 0;         /* reduce el padding para que esté en la parte superior */
+  width: 100%;
+}
