@@ -1,4 +1,5 @@
 'use client'
+import Link from "next/link";
 import { useState } from 'react';
 import { Button } from "./components/Button.jsx";
 import { ButtonCowsay } from "./components/ButtonCowsay.jsx";
@@ -17,18 +18,23 @@ export default function Welcome() {
     <>
       <div className={styles.container}>
         <div className={styles.title}>
-           <HomeTitle/>
+           <HomeTitle name="Cristian Lopez"/>
         </div>
         <div className={styles.cardsGrid}>
           <div className={styles.card}>
            <Subtitles name= "Boton"/>
-           <Button/>
+           <Button name="Registrar"/>
           </div>
           <div className={styles.card}>
             <Subtitles name= "Cowsay"/>
             <LabelText text="Por favor Ingresa un mensaje para imprimir"/>
             <InputCowsay message={message} setMessage={setMessage}/>
             <ButtonCowsay message={message} setMessage={setMessage}/>
+          </div>
+          <div className={styles.card}>
+            <Link href="/cristian/tienda">
+              <button className={styles.button}>Ir a la Tienda</button>
+            </Link>
           </div>
         </div>
       </div>

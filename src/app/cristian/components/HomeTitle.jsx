@@ -1,11 +1,11 @@
 import styles from '@/app/cristian/css/homeTitle.module.css';
 
 
-export function HomeTitle () {
+export function HomeTitle ({name}) {
 
   return(
     <>
-      <h1 className={styles.title}>Cristian Lopez</h1>
+      <h1 className={styles.title}>{name}</h1>
     </>
     
   )
