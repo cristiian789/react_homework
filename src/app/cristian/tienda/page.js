@@ -4,6 +4,7 @@ import styles from '@/app/cristian/css/pageProducts.module.css';
 import { ShoppingCart } from '@/app/cristian/components/ShoppingCart';
 import { ProductCard } from "../components/ProducCard";
 import { Products }  from "@/app/cristian/utils/ProductsList"
+import { CartIcon } from "@/app/cristian/components/Icons"
 
 export default function Welcome() {
 
@@ -15,8 +16,8 @@ export default function Welcome() {
            <HomeTitle name="Tienda Cristian Lopez"/>
         </div>
         <div className={styles.cardsGrid}>
-            {Products.map((prod, index) =>(
-          <div className={styles.card} key={index} >
+            {Products.map((prod) =>(
+          <div className={styles.card} key={prod.id}>
             <ProductCard
               name={prod.name}
               category={prod.category}
@@ -27,11 +28,7 @@ export default function Welcome() {
           </div>  
           ))}
         </div>
-        <div className={styles.cardsGrid}>
-          <div className={styles.card}>
-            <ShoppingCart/>
-          </div>
-        </div>
+        <ShoppingCart/>
       </div>
     </>
   );

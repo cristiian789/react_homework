@@ -1,5 +1,6 @@
 export const Products = [
   {
+    id: 1,
     name: "Café Aguila Roja",
     category: "Bebida",
     price: 28000,
@@ -7,6 +8,7 @@ export const Products = [
     imgUrl: "https://carulla.vtexassets.com/arquivos/ids/19576403/Cafe-Molido-500-gr-13528_a.jpg?v=638739799404730000"
   },
   {
+    id: 2,
     name: "Arequipe Alpina 500g",
     category: "Dulce típico",
     price: 8500,
@@ -14,6 +16,7 @@ export const Products = [
     imgUrl: "https://http2.mlstatic.com/D_NQ_NP_606280-MLU75010360494_032024-O.webp"
   },
   {
+    id: 3,
     name: "Pandebono artesanal",
     category: "Panadería",
     price: 5000,
@@ -21,6 +24,7 @@ export const Products = [
     imgUrl: "https://www.dagusto.com.co/wp-content/uploads/2021/02/pandebono-imagen-destacada.jpg"
   },
   {
+    id: 4,
     name: "Chocoramo tradicional",
     category: "Pasaboca",
     price: 3200,
@@ -28,6 +32,7 @@ export const Products = [
     imgUrl: "https://http2.mlstatic.com/D_NQ_NP_875476-MCO74864317134_032024-O.webp"
   },
   {
+    id: 5,
     name: "Choclitos Frito Lay 150g",
     category: "Pasaboca",
     price: 2900,
@@ -35,6 +40,7 @@ export const Products = [
     imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNsQR7o9Ut68fDFuwUl6IR8pXnyjMQFswokw&s"
   },
   {
+    id: 6,
     name: "Panela orgánica en bloque",
     category: "Endulzante natural",
     price: 6000,
