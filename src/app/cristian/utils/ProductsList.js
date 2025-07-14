@@ -29,7 +29,7 @@ export const Products = [
     category: "Pasaboca",
     price: 3200,
     quantity: 40,
-    imgUrl: "https://http2.mlstatic.com/D_NQ_NP_875476-MCO74864317134_032024-O.webp"
+    imgUrl: "https://cdn.inoutdelivery.com/altoque.inoutdelivery.com.co/lg/1656103047585-7702914596787.png"
   },
   {
     id: 5,
