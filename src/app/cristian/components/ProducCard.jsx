@@ -1,7 +1,7 @@
 import styles from "@/app/cristian/css/products.module.css"
 import { ButtonBuy } from "./ButtonBuy"
 
-export function ProductCard ({name,category,price,quantity,imgUrl}){
+export function ProductCard ({id,name,category,price,quantity,imgUrl,addToCart}){
   return(
     <>
       <div>
@@ -11,7 +11,9 @@ export function ProductCard ({name,category,price,quantity,imgUrl}){
         <p className={styles.p}>Quantity: ${quantity}</p>
         <img src={imgUrl} alt={name} className={styles.img}></img>
       </div>
-      <ButtonBuy name="Buy"/>
+      <button className={styles.button} onClick={() => addToCart(id)}>
+      agregar al carro
+      </button>
 
     </>
     

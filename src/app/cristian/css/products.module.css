@@ -6,3 +6,20 @@
 .p{
   padding: 5px;
 }
+
+.button {
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  background-color: rgb(35, 182, 72);
+}

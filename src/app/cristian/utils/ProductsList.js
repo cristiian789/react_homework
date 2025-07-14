@@ -5,7 +5,7 @@ export const Products = [
     category: "Bebida",
     price: 28000,
     quantity: 10,
-    imgUrl: "https://carulla.vtexassets.com/arquivos/ids/19576403/Cafe-Molido-500-gr-13528_a.jpg?v=638739799404730000"
+    imgUrl: "https://www.tiendaedexa.com/8447-large_default/cafe-aguila-roja-x-250-grs.jpg"
   },
   {
     id: 2,
