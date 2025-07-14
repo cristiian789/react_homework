@@ -19,7 +19,7 @@ export const Products = [
     id: 3,
     name: "Pandebono artesanal",
     category: "Panadería",
-    price: 5000,
+    price: 5500,
     quantity: 30,
     imgUrl: "https://www.dagusto.com.co/wp-content/uploads/2021/02/pandebono-imagen-destacada.jpg"
   },

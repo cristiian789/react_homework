@@ -1,5 +1,4 @@
 import styles from "@/app/cristian/css/products.module.css"
-import { ButtonBuy } from "./ButtonBuy"
 
 export function ProductCard ({id,name,category,price,quantity,imgUrl,addToCart}){
   return(

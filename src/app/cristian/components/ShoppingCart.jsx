@@ -1,7 +1,5 @@
 import style from "@/app/cristian/css/Shopping.module.css"
-import { ButtonBuy } from "./ButtonBuy"
 import { CartIcon } from "./Icons"
-import { Products }  from "@/app/cristian/utils/ProductsList"
 import { ShoppingCartItem } from "@/app/cristian/components/ShoppingCartItem"
 
 export function Shopping({data,clearToCart, removeToCart}){
@@ -30,7 +28,9 @@ export function Shopping({data,clearToCart, removeToCart}){
             removeToCart={removeToCart}
           />
         ))}
-        <button onClick={() => clearToCart()}>Limpiar Carro</button>
+        <p className={style.total}>Total: ${data.reduce((acc, item) => acc + item.price * item.quantity,0)}</p>
+        <button className={style.buttonClear} onClick={() => clearToCart()}>Limpiar Carro</button>
+        <button className={style.buttonPay}>Pagar</button>
       </aside>
     </>
   )

@@ -37,9 +37,61 @@
   padding: 20px;
   transition: right 0.3s ease;
   z-index: 1000;
+  overflow-y: scroll; /* Fuerza la barra de scroll vertical */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
 }
+
+.cartPanel::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
 
 /* Mostrar el panel cuando el checkbox esté activado */
 .cartToggle:checked + .cartPanel {
   right: 0;
+}
+
+.button{
+  padding: 3px;
+  margin: 5px;
+}
+
+.button:hover{
+  background-color: rgb(178, 60, 21);
+}
+
+.container{
+  margin: 8px;
+  padding: 5px;
+}
+
+.img{
+  width: 200px;
+  padding: 5px;
+}
+
+.total{
+  margin: 20px;
+  padding: 1px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+.buttonClear,
+.buttonPay {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  min-width: 100px;
+}
+
+.buttonClear:hover {
+  background-color: rgb(178, 60, 21);
+}
+
+.buttonPay:hover {
+  background-color: rgb(35, 182, 72);
 }

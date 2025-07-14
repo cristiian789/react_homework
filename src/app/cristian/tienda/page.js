@@ -3,10 +3,8 @@ import { HomeTitle } from "@/app/cristian/components/HomeTitle.jsx";
 import styles from '@/app/cristian/css/pageProducts.module.css';
 import { Shopping } from '@/app/cristian/components/ShoppingCart';
 import { ProductCard } from "../components/ProducCard";
-import { CartIcon } from "@/app/cristian/components/Icons"
 import { useReducer } from "react";
 import { ShoppingReducer, ShoppingInitialState, CART_ACTION_TYPES } from "../reducer/ShoppingReducer";
-import { type } from "os";
 
 
 export default function Welcome() {
